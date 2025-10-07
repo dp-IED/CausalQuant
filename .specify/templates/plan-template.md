@@ -31,7 +31,18 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This feature must comply with CausalQuant Constitution v1.0.0:
+
+- [ ] **Graph-First Architecture**: Does this feature maintain graph-native thinking? Are entities/relationships properly modeled?
+- [ ] **Test-Driven Development**: Are tests written first? Is TDD workflow planned?
+- [ ] **MLOps Pipeline Integration**: Are ML models versioned/tracked? Is experiment tracking included?
+- [ ] **Containerization**: Are Docker configurations planned? Is orchestration addressed?
+- [ ] **Modular Library Architecture**: Are modules independently testable with clear boundaries?
+- [ ] **Data Quality & Observability**: Are validation, logging, and metrics included?
+- [ ] **API-First Integration**: Are external dependencies abstracted? Are contracts versioned?
+- [ ] **Security & Compliance**: Are secrets managed properly? Are dependencies scanned?
+
+**Violations**: [If any principle violated, document in Complexity Tracking section with justification]
 
 ## Project Structure
 
